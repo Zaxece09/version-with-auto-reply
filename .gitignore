@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+__pycache__/
+venv/
+env/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+.env.local
+config.ini
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Session files (Telegram)
+*.session
+*.session-journal
+auto_answer/sessions/*.session
+auto_answer/sessions/*.session-journal
+
+# Logs
+logs/
+*.log
+auto_answer/logs/*.log
+
+# Data files (могут содержать личные данные)
+auto_answer/data/*.json
+auto_answer/data/*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build files
+dist/
+build/
+*.tsbuildinfo
+
+# Temp files
+tmp/
+temp/
